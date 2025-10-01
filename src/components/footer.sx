@@ -1,0 +1,71 @@
+import React from 'react'
+import { FaWhatsapp, FaXTwitter, FaEnvelope, FaPhone, FaLocationDot } from "react-icons/fa6";
+
+const Footer = () => {
+  return (
+    <footer className="bg-black text-white grid grid-cols-1 md:grid-cols-[35%_65%] gap-6 md:gap-[2%] p-6 md:p-[3%] mt-8">
+      <div>
+        <div>
+          <h2>Phine Glove hair</h2>
+          <p>
+            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
+          </p>
+        </div>
+        <br />
+        <div>
+          <h3>Navigation</h3>
+          <div className="mt-2">
+            <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="">Product</a></li>
+              <li><a href="">Contact us</a></li>
+              <li><a href="">Book now</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div className="flex flex-col gap-6 md:flex-row md:gap-[4%] p-0 md:p-4">
+          {/* Chat */}
+          <div>
+            <h5 className="text-lg font-semibold">Chat with us</h5>
+            <p className="text-white">Speak to us via live chat</p>
+            <p className="mt-2">
+              <a href="#" className="text-white hover:underline flex items-center gap-2">
+                <FaWhatsapp /> Chat with us via WhatsApp
+              </a>
+            </p>
+            <p className="mt-2">
+              <a href="#" className="text-white hover:underline flex items-center gap-2">
+                <FaXTwitter /> Send a message to us via X
+              </a>
+            </p>
+            <p className="mt-2">
+              <a href="#" className="text-white hover:underline flex items-center gap-2">
+                <FaEnvelope /> Send us an email
+              </a>
+            </p>
+          </div>
+          {/* Call */}
+          <div>
+            <h5 className="text-lg font-semibold">Call us</h5>
+            <p className="text-white">You can call us Mon–Fri from 9am–6pm</p>
+            <a href="tel:08091348200" className="text-white hover:underline flex items-center gap-2 mt-2">
+              <FaPhone /> 08091348200
+            </a>
+          </div>
+          {/* Visit */}
+          <div>
+            <h5 className="text-lg font-semibold">Visit us</h5>
+            <p className="text-white">Chat with us at our office</p>
+            <a href="#" className="text-white hover:underline flex items-center gap-2 mt-2">
+              <FaLocationDot /> loriem ipsume forem Kubwa Abuja
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  )
+}
+
+export default Footer
