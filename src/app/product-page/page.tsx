@@ -1,6 +1,6 @@
 import MainProduct from '@/components/product-main';
 
-export const ProductRow = () => {
+const ProductRow = () => {
   return (
   <div className='p-[5%]'>
       <h2>Top Collection</h2>
