@@ -13,7 +13,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 
-interface BookingFormData {
+type BookingFormData ={
   firstName: string;
   surname: string;
   email: string;

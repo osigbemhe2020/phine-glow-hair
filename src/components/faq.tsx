@@ -5,7 +5,7 @@ import { Card, CardContent, CardHeader } from "@/components/ui/card"
 import { ChevronDown, ChevronUp } from "lucide-react"
 import { cn } from "@/lib/utils"
 
-interface FAQItemProps {
+type FAQItemProps = {
   question: string
   answer: string
   defaultOpen?: boolean

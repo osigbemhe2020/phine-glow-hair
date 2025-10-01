@@ -8,7 +8,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 
-interface ContactFormData {
+type ContactFormData = {
   firstName: string;
   lastName: string;
   email: string;
